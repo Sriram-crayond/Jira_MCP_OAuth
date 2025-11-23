@@ -16,7 +16,7 @@ def fetch_oauth_creds():
     resp = requests.get(
         TOKEN_ENDPOINT,
         params={"provider": "jira"},
-        headers={"x-api-key": "scrummaster123"},  # ✅ Fixed: Added API key
+        headers={"x-api-key": "scrummaster123"},  
         verify=False
     )
     resp.raise_for_status()
