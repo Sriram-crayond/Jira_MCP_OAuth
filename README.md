@@ -17,7 +17,7 @@ A FastMCP server that provides 11 Jira tools through the Model Context Protocol 
                                         └──────────────┘
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MCP_JIRA_OAuth/
