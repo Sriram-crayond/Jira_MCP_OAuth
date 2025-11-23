@@ -1,0 +1,3 @@
+fastmcp
+atlassian-python-api
+python-dotenv

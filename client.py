@@ -60,7 +60,7 @@ async def main():
     client = MultiServerMCPClient(
         {
             "jira": {
-                "url": "http://localhost:3000/mcp",
+                "url": "http://localhost:3000/mcp", #https://Jiramcpoauth.fastmcp.app/mcp
                 "transport": "streamable_http",
                 "headers": {
                     "x-user-jira-access-token": access_token,  # ✅ OAuth token
